@@ -8,10 +8,11 @@ public class ContaTerminal {
         String nomeCliente;
         double saldo;
 
+        //mensagem de boas vindas
         System.out.println("Olá, seja bem vindo ao banco.");
         System.out.println("Por favor, inserir os dados solicitados abaixo para a criação da conta.\n");
 
-    
+        //pegando as informações do cliente
         System.out.println("Por favor, digite o número da agência !");
         agencia = input.nextLine();
 
