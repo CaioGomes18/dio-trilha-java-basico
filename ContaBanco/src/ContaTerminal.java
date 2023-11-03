@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args)  {
+        //fazendo a instanciação da classe scanner e declarando as variaveis
         Scanner input = new Scanner(System.in);
         int numero;
         String agencia;
@@ -25,6 +26,7 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o saldo da conta !");
         saldo = input.nextDouble();
 
+        //exibindo as informações coletadas
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + " conta " + numero + " e seu saldo " + saldo + "\n já está disponível para saque");
         input.close();
     }
